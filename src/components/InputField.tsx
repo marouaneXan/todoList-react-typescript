@@ -1,5 +1,5 @@
 import React from 'react'
-// import './styles.css'
+import './styles.css'
 const InputField = () => {
   return (
     <form className="input">
