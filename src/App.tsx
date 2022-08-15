@@ -1,10 +1,12 @@
-import './App.css';
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
-  );
-}
+import React from "react";
+import "./App.css";
+
+const App: React.FC = () => {
+  return <div className="App">
+    <span className="heading">
+      Taskify
+    </span>
+  </div>;
+};
 
 export default App;
